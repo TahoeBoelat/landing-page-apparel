@@ -1,0 +1,23 @@
+/* General */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+* {
+    background-image: url(./img/bg-pattern-desktop.svg) cover;
+    margin: 0;
+    padding: 0;
+}
+.title, .description, .email-field, .bold-text {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.title {
+    font-size: 3rem;
+}
+.description {
+    font-size: 18px;
+    width: 65%;
+}
+.email-field {
+    padding-left: 15px;
+    border: none;
+}
+/* Desktop Style */
+/* Mobile Style */
