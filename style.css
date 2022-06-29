@@ -2,22 +2,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
 * {
     background-image: url(./img/bg-pattern-desktop.svg) cover;
+    background-repeat: no-repeat
     margin: 0;
     padding: 0;
 }
 .title, .description, .email-field, .bold-text {
     font-family: 'Josefin Sans', sans-serif;
 }
+/* Desktop Style */
+/* Desktop Style */
+.first-section {
+    margin-top: 2em;
+    margin-left: 5em;
+}
 .title {
+    margin-top: 3rem;
     font-size: 3rem;
 }
 .description {
+    margin-top: 3rem;
     font-size: 18px;
     width: 65%;
 }
-.email-field {
-    padding-left: 15px;
-    border: none;
+.form {
+    margin-top: 3rem;
 }
-/* Desktop Style */
 /* Mobile Style */
