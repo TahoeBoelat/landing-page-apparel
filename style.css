@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
 }
-.title, .description, .email-field, .bold-text {
+.title, .description, .email-field, .bold-text, .alert-message {
     font-family: 'Josefin Sans', sans-serif;
 }
 /* Desktop Style */
@@ -26,5 +26,27 @@
 }
 .form {
     margin-top: 3rem;
+}
+.email-field {
+    height: 2.5rem;
+    width: 350px;
+    padding: 5px;
+    border-radius: 18px;
+    border: hsl(0, 36%, 70%) 2px solid;
+}
+.btn-submit {
+    height: 3rem;
+    width: 75px;
+    border-radius: 15px;
+    border: none;
+    background-image: linear-gradient(135deg, #ffecd2 0%, #fcb69f 51%, #ffecd2 100%);
+}
+.alert-message {
+    margin-top: 18px;
+    font-size: 12px;
+}
+.error-icon {
+    margin-top: 25px;
+    margin-left: -50px;
 }
 /* Mobile Style */
